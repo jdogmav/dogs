@@ -1,0 +1,196 @@
+/* @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Roboto&display=swap'); */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.nav-bar {
+  width: 100%;
+  height: 80px;
+  background-color:rgba(94, 74, 64, .5);
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  margin: 15px 0px 0px 15px;
+}
+
+.nav-list {
+  float: right;
+  /* height: 80px;
+  width: 300px;      this section would be applied when using float on the list-item*/
+}
+
+.list-item {
+  display: inline-block;
+    margin-right: 25px;
+    margin-top: 20px;
+    padding: 10px;
+    border: 3px solid #000;
+    color: red;
+    border-bottom: none;
+    border-radius: 12px 12px 0px 0px;
+  /* float: left;
+  text-decoration: none; this remove the underline of the link
+  list-style-type: none; this removes the bullet points*/
+}
+
+.list-item:hover {
+  background-color: yellow;
+  border: 3px dashed #fff;
+  border-radius: 50%;
+}
+
+/*************End of Nav************/
+
+.hero-img {
+  background-image: url("../img/corgi-mut.jpg");
+  height: 800px;
+  width: 100%;
+  margin-top: 80px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.hero-text-box {
+  height: 100px;
+  width: 300px;
+  background-color: rgba(185, 177, 174, .3);
+  border: 3px solid #000;
+  border-radius: 20px;
+  position: absolute;
+  top: 530px;
+  left: 40%;
+  text-align: center;
+  box-shadow: 3px 3px #000;
+}
+
+.hero-text {
+  font-family: 'Gloria Hallelujah', cursive;
+  margin-top: 10px;
+  text-shadow: 2px 2px #d9d9d9;
+}
+
+/*************End of Main************/
+
+.sec-box {
+  border: 3px solid rgb(94, 74, 64);
+  height: 505px;
+  width: 48%;
+  float: left;
+  margin-left: 17px;
+  margin-bottom: 50px;
+}
+.home-img {
+  width: 96%;
+  margin: 15px;
+}
+
+.home-text {
+  margin: 15px;
+}
+
+.footer {
+  width: 100%;
+  height: 80px;
+  background-color:rgba(94, 74, 64, .5);
+  clear: both;
+  margin-top: 50px;
+}
+
+.input, .social, .copy {
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+  margin-top: 35px;
+}
+
+.fab {
+  font-size: 2em;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.fa-facebook-square {
+  color: #3b5998 ;
+}
+
+.fa-linkedin {
+  color:#0072b1;
+}
+
+.fa-instagram {
+  color: #C13584;
+}
+
+/*******End of Index Styles************/
+
+.container {
+  height: 800px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.about-box {
+  height: 700px;
+  width: 30%;
+  border: 3px solid #000;
+  float: left;
+  margin-left: 35px;
+  margin-top: 50px;
+}
+
+.container-box, .container-video{
+  display: block;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.container-img {
+  width: 300px;
+  /* display: block;
+  margin: auto;
+  margin-top: 25px; */
+}
+
+/* .container-audio { */
+  /* display: block; */
+  /* margin: auto;
+  margin-top: 25px; */
+/* } */
+/* 
+.containter-video {
+  margin-top: 25px;
+} */
+
+.about-box p {
+  margin: 45px;
+}
+
+/************End of About Styles******/
+
+.contact-container {
+  height: 1100px;
+  width: 606px;
+}
+
+.contact-map, .contact-form {
+  position: relative;
+  top: 125px;
+  left: 75%;
+  margin-bottom: 45px;
+  border: 3px solid #000;
+}
